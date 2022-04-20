@@ -1,0 +1,77 @@
+img {
+  width: 100px;
+  height: auto;
+}
+
+.d-n {
+  display: none;
+}
+
+th {
+  background-color: black;
+  color: white;
+  border: gray solid 1px;
+}
+
+td,
+tr,
+tbody,
+table {
+  border: gray solid 1px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.form {
+  margin: 1% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 1.8em;
+}
+
+.bouton {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: rgb(56, 117, 231);
+  padding: 5% 5%;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.form-left input,
+.form-right input {
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  color: rgb(1, 1, 195);
+}
+
+h2 {
+  color: rgb(31, 31, 253);
+}
+
+label {
+  margin-top: 3%;
+}
